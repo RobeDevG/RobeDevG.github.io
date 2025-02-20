@@ -441,6 +441,7 @@ main {
 .card-flex{
   display: flex;
   gap: 8px;
+  flex-wrap: wrap;
   margin-top: 6px;
   margin-bottom: 6px;
 }
