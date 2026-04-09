@@ -1,0 +1,17 @@
+{
+  "name": "Portfolio Roberto Gonzalez",
+  "short_name": "RobeDevG",
+  "description": "Portafolio Front-End de Roberto Gonzalez con proyectos en React, UI/UX y performance.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

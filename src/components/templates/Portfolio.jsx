@@ -25,7 +25,7 @@ export default function Portfolio() {
           links={portfolio.nav}
           cv={portfolio.contact.cv}
         />
-        <main>
+        <main id="contenido-principal">
           <Hero
             person={portfolio.person}
             hero={portfolio.hero}

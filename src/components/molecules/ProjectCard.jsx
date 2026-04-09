@@ -40,7 +40,7 @@ export default function ProjectCard({ project }) {
           <a
             href={link}
             target={isExternal ? '_blank' : undefined}
-            rel={isExternal ? 'noreferrer' : undefined}
+            rel={isExternal ? 'noopener noreferrer' : undefined}
             className="inline-flex items-center gap-2 text-sm font-semibold text-emerald-200/90 transition group-hover:text-emerald-200"
           >
             Ver preview

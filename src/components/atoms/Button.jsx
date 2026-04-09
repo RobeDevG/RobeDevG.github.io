@@ -19,7 +19,7 @@ export default function Button({
   rel,
 }) {
   const Comp = href ? 'a' : 'button'
-  const safeRel = target === '_blank' ? rel ?? 'noreferrer' : rel
+  const safeRel = target === '_blank' ? rel ?? 'noopener noreferrer' : rel
 
   return (
     <Comp
